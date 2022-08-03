@@ -1,0 +1,113 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #2C3333;
+}
+
+.App {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    opacity: 0.8;
+    width: 300px;
+    padding: 1em;
+    border-radius: 1em;
+    text-align: center;
+    color: #F5EDDC;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    color: #F5EDDC;
+    margin-bottom: 1em;
+    font-size: 13px;
+}
+
+.your_location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.location h2 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.fa-location-dot {
+    color: white;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    align-self: center;
+}
+
+.description img {
+    background-color: #100720;
+    opacity: 0.9;
+    border-radius: 50%;
+    width: 100px;
+}
+
+
+.description p {
+    background-color: #76549A;
+    border-radius: 1em;
+    padding: 0.5em;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.temperature {
+    font-size: 40px;
+    margin: 0;
+}
+
+.wind {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.cloud {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.droplet{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.change{
+    width: 40px;
+    text-decoration: none;
+    border: none;
+    padding: 0.5em;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    align-self: center;
+}
+
+.loadingg{
+    display: flex;
+    flex-direction: column;
+}
