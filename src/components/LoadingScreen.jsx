@@ -5,7 +5,7 @@ const LoadingScreen = () => {
     return (
         <div className="loadingg">
             <img src={imagen} alt="" />
-            <h2>WeatherApp wants to know your location ...</h2>
+            <h2>WeatherApp wants to know your locationnnnnnnnn ...</h2>
         </div>
     )
 }
